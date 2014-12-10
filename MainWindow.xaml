@@ -1,0 +1,60 @@
+﻿<Window x:Class="FuncDraw_WPF_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        AllowsTransparency="True" WindowStyle="None"
+        Title="MainWindow" Height="700" Width="1366" Background="#CC4F3050" >
+    <Window.Resources>
+        <SolidColorBrush x:Key="Brush1" Color="#CC4F3050"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="165*"/>
+            <ColumnDefinition Width="658*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Draw" HorizontalAlignment="Left" Margin="26,47,0,0" VerticalAlignment="Top" Width="148" Height="41" FontSize="16" Foreground="#FF4F3050"  Background="#FFFFAB89" Click="Button_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="Teacher" 
+                        BorderBrush="#FFDF8679"
+                        BorderThickness="1,1,5,5"
+    					
+    					Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Grid x:Name="grid_draw" HorizontalAlignment="Center" Height="700" VerticalAlignment="Top" Width="1086" Grid.Column="1" Margin="3,0"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="26,126,0,0" VerticalAlignment="Top" Width="148" Height="41" FontSize="16" Foreground="#FF4F3050"  Background="#FFFFAB89" Click="Button_Click1">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="Teacher" 
+                        BorderBrush="#FFDF8679"
+                        BorderThickness="1,1,5,5"
+    					
+    					Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="Code" HorizontalAlignment="Left" Margin="26,208,0,0" VerticalAlignment="Top" Width="148" Height="41" FontSize="16" Foreground="#FF4F3050"  Background="#FFFFAB89" Click="Button_Click2">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="Teacher" 
+        				BorderBrush="#FFDF8679"
+        				BorderThickness="1,1,5,5"
+    					
+        				Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <TextBlock x:Name="Comm" HorizontalAlignment="Left" Margin="24,532,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="158" Width="1058" Grid.Column="1" Foreground="#FFFFAB89" FontSize="14"><Run Language="zh-cn" Text=""/></TextBlock>
+
+    </Grid>
+</Window>

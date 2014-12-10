@@ -1,0 +1,15 @@
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\bin\Debug\FuncDraw(WPF).exe.config
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\bin\Debug\FuncDraw(WPF).exe
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\bin\Debug\FuncDraw(WPF).pdb
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\obj\Debug\FuncDraw(WPF).csprojResolveAssemblyReference.cache
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\obj\Debug\MainWindow.baml
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\obj\Debug\MainWindow.g.cs
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\obj\Debug\App.g.cs
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\obj\Debug\FuncDraw(WPF)_MarkupCompile.cache
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\obj\Debug\FuncDraw(WPF).g.resources
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\obj\Debug\FuncDraw_WPF_.Properties.Resources.resources
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\obj\Debug\FuncDraw(WPF).csproj.GenerateResource.Cache
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\obj\Debug\FuncDraw(WPF).exe
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\obj\Debug\FuncDraw(WPF).pdb
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\obj\Debug\Code.baml
+F:\School\Programing\C# Programing\FuncDraw\FuncDraw(WPF)\obj\Debug\Code.g.cs
