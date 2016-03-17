@@ -1,0 +1,8 @@
+origin is (380,140);
+scale is (80,80);
+rot is 0;
+for t from 0 to 2*pi step pi/50 draw((2*cos(t)-cos(2*t)),(2*sin(t)-sin(2*t)));
+rot is 2*pi/3;
+for t from 0 to 2*pi step pi/50 draw((2*cos(t)-cos(2*t)),(2*sin(t)-sin(2*t)));
+rot is 4*pi/3;
+for t from 0 to 2*pi step pi/50 draw((2*cos(t)-cos(2*t)),(2*sin(t)-sin(2*t)));

@@ -1,0 +1,5 @@
+origin is (380,240);
+rot is 0;
+scale is (100,100);
+for t from 0 to 2*pi step pi/50 draw(cos(t),sin(t));
+for t from 0 to pi*20 step pi/50 draw((1-1/(10/7))*cos(t)+1/(10/7)*cos(-t*((10/7)-1)),(1-1/(10/7))*sin(t)+1/(10/7)*sin(-t*((10/7)-1)));

@@ -1,0 +1,8 @@
+origin is (380,140);
+scale is (240,240/3);
+rot is pi/2+0*pi/3;
+for t from -pi to pi step pi/50 draw (cos(t),sin(t));
+rot is pi/2+2*pi/3;
+for t from -pi to pi step pi/50 draw (cos(t),sin(t));
+rot is pi/2-2*pi/3;
+for t from -pi to pi step pi/50 draw (cos(t),sin(t));
